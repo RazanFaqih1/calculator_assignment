@@ -1,0 +1,127 @@
+body {
+    background-color: #F3EFE0;
+    font-family: "Roboto-Light", 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #F3EFE0;
+}
+
+h1 {
+    color: #222222;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    display: flex;
+    width: 300px;
+    height: 370px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222222;
+    box-shadow: 0px 0px 10px #434242;
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+.calc:hover {
+    box-shadow: 0px 0px 10px #7c7878;
+    transition: 0.15s;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+
+.display-con {
+    display: flex;
+    background-color: #f3f1ea;
+    justify-content: flex-end;
+    align-items: center;
+    width: 230px;
+    height: 50px;
+    margin-right: 2px;
+    box-shadow: 0px 0px 5px #7c7878;
+    overflow: hidden;
+}
+
+#display {
+    color: black;
+    text-align: right;
+    font-size: 40px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+
+button {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #434242;
+    border: none;
+    font-size: 25px;
+    font-family: "Roboto-Light", 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    color: #F3EFE0;
+    cursor: pointer;
+    transition: width height 0.5s;
+}
+
+button:hover {
+    transition: 0.15s;
+    box-shadow: 1px 1px 10px rgb(90, 87, 87);
+    width:55px;
+    height: 55px;
+}
+
+#add,
+#subtract,
+#divide,
+#equal,
+#multiply {
+    background-color: #22A39F;
+}
+
+#add:hover{
+    box-shadow: 1px 1px 5px wheat;
+    background-color: antiquewhite;
+    color: #222222;
+    }
+#subtract:hover{
+    box-shadow: 1px 1px 5px wheat;
+    background-color: antiquewhite;
+    color: #222222;
+    }
+#divide:hover{
+    box-shadow: 1px 1px 5px wheat;
+    background-color: antiquewhite;
+    color: #222222;
+    }
+#equal:hover{
+    box-shadow: 1px 1px 5px wheat;
+    background-color: antiquewhite;
+    color: #222222;
+    }
+#multiply:hover{
+    box-shadow: 1px 1px 5px wheat;
+    background-color: antiquewhite;
+    color: #222222;
+}
+#clear,
+#dot {
+    background-color: gray;
+}
